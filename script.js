@@ -1,7 +1,7 @@
-/*"use strict";*/
+"use strict";
 
 /* Toggle for the Hamburger Menu*/
-burgerMenu = document.querySelector ('.ham-toggle');
+ const burgerMenu = document.querySelector ('.ham-toggle');
 burgerMenu.addEventListener('click', function(){
 
   const navMenu = document.querySelector (".nav");
@@ -9,11 +9,10 @@ burgerMenu.addEventListener('click', function(){
 });
 
 /* Toggle for the Icon*/
+const arrowIcon = document.querySelector('#arrowIcon'); 
+  
 function stopSpinning() {
-
-  var element = document.getElementById("arrowIcon");
-  element.classList.toggle("fa-spin");
+  arrowIcon.classList.toggle("fa-spin");
 } 
 
-const arrowIcon = document.querySelector('#arrowIcon');
 arrowIcon.addEventListener('click', stopSpinning);
