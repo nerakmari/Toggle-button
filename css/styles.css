@@ -42,6 +42,9 @@ i {
   cursor: pointer;	
 }
 
+i:hover {
+  color: red;
+}
 i:active{
   color:red;
 }
