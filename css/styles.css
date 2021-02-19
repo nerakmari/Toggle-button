@@ -1,0 +1,55 @@
+body {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 700;
+  background-color: black;
+  color: whitesmoke;
+}
+
+nav {
+  width: 100%;
+  position: relative;
+  height: auto;
+}
+ul li {
+  display: flex;
+  flex-flow: column wrap;
+  list-style-type: none;
+  text-align: center;
+  
+padding: 1rem;
+
+}
+
+li a {
+  text-decoration: none;
+  color:white;
+
+}
+
+ul li a:hover {
+  color: rgb(216, 125, 125);
+
+  transition: color .3s ease;
+}
+
+/* Hamburger Menu */ 
+
+i {
+  padding: 1rem;
+  font-size: 50px;
+  text-align: center;
+  border-radius: 90px;
+  cursor: pointer;	
+}
+
+i:active{
+  color:red;
+}
+
+input {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
