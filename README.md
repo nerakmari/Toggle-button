@@ -1,4 +1,4 @@
-# CPNT 262 Assignment 1 - classList Toggle
+# classList Toggle
 
 ## Author Name: Karen Sule
 
